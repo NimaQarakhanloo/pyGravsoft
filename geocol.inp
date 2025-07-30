@@ -1,0 +1,31 @@
+f
+t f f f f t f f
+1
+neq
+21 2000
+5 - GRS80
+2
+4
+-2.3 254.0 360 f f t f
+-1 2 .003
+C:/Users/sabah/Desktop/research/Undergoing Projects/Juan/Data/egm08.edg
+f
+ -1 2 3 3 4 6 0 11 -1 0.0  f f f t f f f f f t 
+C:/Users/sabah/Desktop/research/Undergoing Projects/Juan/Data/Obs_A2_3.txt
+25 
+t 1
+11111
+0.013
+t f 
+f f f 
+f  t t f
+f
+ 1 2 3 3 4 6 0 13 -1 0.0 t f f t f f t f f t 
+C:/Users/sabah/Desktop/research/Undergoing Projects/Juan/Data/BGI_A2_3.txt
+27 
+C:/Users/sabah/Desktop/research/Undergoing Projects/Juan/GEOCOL/A2_3
+.10
+t 0
+0.0 
+-1 
+t
