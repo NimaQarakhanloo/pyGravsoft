@@ -1,0 +1,234 @@
+
+FITTING OR TABULATION OF COVARIANCE FUNCTIONS, VERS.  15 OKT 2008.
+
+THE KINDS AND CORRESPONDING UNITS ARE AS FOLLOWS: (E=EOTVOS):
+(1) THE HEIGHT ANOMALY (METERS), (2) THE NEGATIVE RADIAL DER-
+IVATIVE (THE GRAVITY DISTURBANCE), (3) THE GRAVITY
+ANOMALY (MGAL), (4) THE RADIAL DERIVATIVE OF (3) (E), (5) THE
+SECOND ORDER RADIAL DERIVATIVE (E), (6),(7) THE LATITUDE AND
+THE LONGITUDE COMPONENTS OF THE DEFLECTIONS OF THE VERTICAL
+(ARCSECONDS), (8),(9) THE DERIVATIVES OF (3) IN NORTHERN AND
+EASTERN DIRECTION, RESPECTIVELY (E), (10),(11) THE DERIVATIVE
+OF (2) IN THE SAME DIRECTIONS (E), (12) - (15) THE SECOND
+ORDER DERIVATIVES WITH RESPECT TO LATITUDE, IN NORTHERN
+AND EASTERN DIRECTION * 2, WITH RESPECT TO LONGITUDE, AND
+IN EASTERN MINUS NORTHERN DIRECTIONS, RESPECTIVELY (E).
+(0) OR (16) DENSITY ANOMALIES IN G/CM**3*10.
+(17) COEFFICIENT OF THE F.NORM. SPHERICAL HARMONIC Y(I,J),
+100 ADDED INDICATES 1 OR 2-D MEAN & NEGATIVE ROTATED. 
+
+
+ INTERACTIVE ? (T/F) ? 
+INPUT MODE (1-7), TEST? (T/F), FUNCTION GIVEN AS LEGENDRE SUM?
+LAST COMPUTATION ? , OUTPUT TABLE TO FILE ? (T/F)
+
+ COMPUTATION MODE=  4
+ INPUT TYPE OF COV. FCT. MODEL (1,2,3)
+ INPUT INTEGER(S) IN NUMERATOR
+
+THE MODEL ANOMALY DEGREE-VARIANCES ARE EQUAL TO
+A*(I-1)        /((I-2)*(I+   4)).
+INPUT -DEPTH TO BJ.SPH.(KM), GRAVITY VARIANCE (MGAL**2),
+MAX DEGREE OF ERROR DEGREE-VARIANCES (EDGV) 
+EDGV ALL ZERO ? (T/F), 
+ INPUT ERROR DEG.VAR. MODEL NO., IMIN, SCALE FACTOR AND LIST?
+MODEL  -1 USED FROM DEGREE     2 TO   360 WITH SCALE FACTOR=  1.000000
+ INPUT NAME OF FILE HOLDING DEG.VAR.
+ DEGREE-VARIANCES INPUT FROM FILE data/egm96.edg                                                                                                                   2 360
+ MULTIPLICATIVE FACTOR USED 
+SUM OF DEGREE-VARIANCES (MGAL) =     71.99996
+
+RATIO R/RE                              =       0.999843
+DEPTH TO BJERHAMMAR SPHERE (R-RE)       =   -1000.00 M
+VARIANCE OF POINT GRAVITY ANOMALIES     =     400.00 MGAL**2
+THE FACTOR A, DIVIDED BY RE**2 IS       =     192.34 MGAL**2
+ INPUT NUMBER OF ITERATIONS AND 3 APRIORI WEIGHT FACTORS
+
+NUMBER OF ITERATIONS:   10.
+
+THE VALUE OF TAU(J) USED IN THE CX MATRIX: CX(J,J)=TAU(J)**2
+AA:  1.00, A:  1.00, RB-RE:  1.00.
+
+
+(AA IS EQUAL TO THE CONSTANT SMALL A)
+
+ INPUT NO. OF DATASETS
+
+NUMBER OF DATA SETS:  1.
+ INPUT NO. OF VALUES, DATA TYPE 1, DATA TYPE 2, HEIGHT1, HEIGHT2, ERROR-MODE, WEIGHT, DATA ON FILE?(T/F) WHERE ERROR-MODE=1: DATA DISTRIBUTION DEPENDENT  -     -     -  =2: COVARIANCE-VARIANCE DEPENDENT
+ INPUT VAR1, VAR2, FI1,2 DFI, LON1,2, DLO
+
+DATA SET NO.  1:
+    NUMBER OF VALUES:  10,
+    BETWEEN KIND        3 AND         3,
+    AT HEIGHTS:   10000.0 AND   10000.0.
+
+    MODE FOR ERROR:  1,
+
+    ERRORS ARE CALCULATED USING:
+    THE VARIANCES OF THE TWO KINDS:  400.0000  400.0000,
+    AND AREA SPECIFICATIONS:
+    FI1, FI2, AND DFI:    54.5000   57.5000    0.1000,
+    LA1, LA2, AND DLA:     7.0000   13.0000    0.2000.
+
+    GEOMETRIC MEAN OF VARIANCES:  400.0000.
+    EXPECTED NUMBER OF PRODUCTS:       900.
+    VAR/SQRT(N)                =   13.3333.
+
+    RELATIVE WEIGHT FACTOR:   1.000.
+
+ INPUT NAME OF FILE HOLDING TABLE
+INPUT OF COVARIANCES FROM FILE: table.txt                                       
+
+
+ RESULT OF ITERATION NO.  0:
+--------------------------
+                                 AA             A           RB-RE
+NEW VALUE:                     1.000000       780698.     -1000.000
+LAST ADJ.:                     1.000000       780698.     -1000.000
+
+
+    KP KQ    PSI      HP      HQ       OBS     MODEL       ERR   DIF/ERR
+
+  1  3  3   0.000  10000.0  10000.0  856.1029   64.7826    0.6904********
+  2  3  3   0.167  10000.0  10000.0  585.9609   45.5004    0.9757553.9258
+  3  3  3   0.333  10000.0  10000.0  387.0398   20.1917    1.1245326.2373
+  4  3  3   0.500  10000.0  10000.0  230.8663    7.1257    1.2807174.7028
+  5  3  3   0.667  10000.0  10000.0  124.5864    2.7454    1.4452 84.3089
+  6  3  3   0.833  10000.0  10000.0  109.7246    1.4147    1.6455 65.8220
+  7  3  3   1.000  10000.0  10000.0   96.3818    0.2266    1.8828 51.0713
+  8  3  3   1.167  10000.0  10000.0   39.3459   -1.1353    2.1307 18.9991
+  9  3  3   1.333  10000.0  10000.0  -13.0057   -1.9569    2.4204 -4.5648
+ 10  3  3   1.500  10000.0  10000.0   -6.7214   -1.8685    2.7658 -1.7546
+RMS VALUE OF DIFFERENCES/ERRORS:    420.940089
+(RELATIVE CHANGE:                     1.000000).
+
+
+ RESULT OF ITERATION NO.  1:
+--------------------------
+                                 AA             A           RB-RE
+NEW VALUE:                    16.695764      1863803.      -500.000
+LAST ADJ.:                    15.695764      1083106.       500.000
+
+RMS VALUE OF DIFFERENCES/ERRORS:     85.746141
+(RELATIVE CHANGE:                     0.796298).
+
+
+ RESULT OF ITERATION NO.  2:
+--------------------------
+                                 AA             A           RB-RE
+NEW VALUE:                    16.631903      3799672.      -250.000
+LAST ADJ.:                    -0.063861      1935869.       250.000
+
+RMS VALUE OF DIFFERENCES/ERRORS:     55.414037
+(RELATIVE CHANGE:                     0.353743).
+
+
+ RESULT OF ITERATION NO.  3:
+--------------------------
+                                 AA             A           RB-RE
+NEW VALUE:                    16.576276      5019538.      -125.000
+LAST ADJ.:                    -0.055627      1219866.       125.000
+
+RMS VALUE OF DIFFERENCES/ERRORS:     43.640401
+(RELATIVE CHANGE:                     0.212467).
+
+
+ RESULT OF ITERATION NO.  4:
+--------------------------
+                                 AA             A           RB-RE
+NEW VALUE:                    16.552960      5461489.       -44.611
+LAST ADJ.:                    -0.023316       441951.        80.389
+
+RMS VALUE OF DIFFERENCES/ERRORS:     42.405400
+(RELATIVE CHANGE:                     0.028299).
+
+
+ RESULT OF ITERATION NO.  5:
+--------------------------
+                                 AA             A           RB-RE
+NEW VALUE:                    16.550023      5447401.       -33.229
+LAST ADJ.:                    -0.002937       -14089.        11.383
+
+RMS VALUE OF DIFFERENCES/ERRORS:     42.395392
+(RELATIVE CHANGE:                     0.000236).
+
+
+ RESULT OF ITERATION NO.  6:
+--------------------------
+                                 AA             A           RB-RE
+NEW VALUE:                    16.549765      5441692.       -26.912
+LAST ADJ.:                    -0.000258        -5709.         6.316
+
+RMS VALUE OF DIFFERENCES/ERRORS:     42.389931
+(RELATIVE CHANGE:                     0.000129).
+
+
+ RESULT OF ITERATION NO.  7:
+--------------------------
+                                 AA             A           RB-RE
+NEW VALUE:                    16.549650      5437875.       -22.767
+LAST ADJ.:                    -0.000115        -3816.         4.145
+
+RMS VALUE OF DIFFERENCES/ERRORS:     42.386346
+(RELATIVE CHANGE:                     0.000085).
+
+
+ RESULT OF ITERATION NO.  8:
+--------------------------
+                                 AA             A           RB-RE
+NEW VALUE:                    16.549585      5435123.       -19.800
+LAST ADJ.:                    -0.000065        -2752.         2.967
+
+RMS VALUE OF DIFFERENCES/ERRORS:     42.383780
+(RELATIVE CHANGE:                     0.000061).
+
+
+ RESULT OF ITERATION NO.  9:
+--------------------------
+                                 AA             A           RB-RE
+NEW VALUE:                    16.549543      5433032.       -17.555
+LAST ADJ.:                    -0.000041        -2091.         2.245
+
+RMS VALUE OF DIFFERENCES/ERRORS:     42.381838
+(RELATIVE CHANGE:                     0.000046).
+
+
+ RESULT OF ITERATION NO. 10:
+--------------------------
+                                 AA             A           RB-RE
+NEW VALUE:                    16.549515      5431383.       -15.790
+LAST ADJ.:                    -0.000028        -1649.         1.765
+
+
+    KP KQ    PSI      HP      HQ       OBS     MODEL       ERR   DIF/ERR
+
+  1  3  3   0.000  10000.0  10000.0  856.1029  840.7259    0.6904 22.2722
+  2  3  3   0.167  10000.0  10000.0  585.9609  646.3840    0.9757-61.9285
+  3  3  3   0.333  10000.0  10000.0  387.0398  364.9877    1.1245 19.6110
+  4  3  3   0.500  10000.0  10000.0  230.8663  168.1822    1.2807 48.9454
+  5  3  3   0.667  10000.0  10000.0  124.5864   56.1279    1.4452 47.3704
+  6  3  3   0.833  10000.0  10000.0  109.7246    3.0181    1.6455 64.8476
+  7  3  3   1.000  10000.0  10000.0   96.3818  -16.3630    1.8828 59.8826
+  8  3  3   1.167  10000.0  10000.0   39.3459  -20.2644    2.1307 27.9769
+  9  3  3   1.333  10000.0  10000.0  -13.0057  -20.0000    2.4204  2.8897
+ 10  3  3   1.500  10000.0  10000.0   -6.7214  -20.0794    2.7658  4.8297
+RMS VALUE OF DIFFERENCES/ERRORS:     42.380311
+(RELATIVE CHANGE:                     0.000036).
+
+
+ TAU(J) USED IN THE CX MATRIX      0.10E+01      0.10E+01      0.12E+00
+
+RESULTS IN VARIANCE OF GRAVITY ANOMALIES:
+ 1'TH ROW OF INVERSE MATRIX      0.2897E-05   -0.7835E-05   -0.4120E-04
+ 2'TH ROW OF INVERSE MATRIX     -0.7835E-05    0.3695E-04    0.2906E-02
+ 3'TH ROW OF INVERSE MATRIX     -0.4120E-04    0.2906E-02    0.9936E+00
+
+ STD.DEV.       0.281689E-01  0.330146E+05  0.157399E+02
+ STD.DEV.*RMS   0.119381E+01  0.139917E+07  0.667060E+03
+
+RESULTS IN VARIANCE OF GRAVITY ANOMALIES:  8877.22 MGAL**2.
+
+N       RATIO      AA      A         RE-RB    VARG    IT 
+360  0.4238D+02 16.5495  0.5431D+07   -15.79  8877.22   10
+ 

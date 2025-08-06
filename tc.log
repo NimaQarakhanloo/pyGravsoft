@@ -1,0 +1,21 @@
+input file names (statfile/dtm1/dtm2/refdtm/outfile):
+input: itype   (1 dg, 2 defl, 3 ha, 4 g+defl, 5 fa, 6 all
+                       7 tzz, 8 txx tyy tzz, 9 all grad)
+       ikind   (1 topo, 2 iso, 3 tc, 4 rtm, 5 rtm from tc)
+       izcode   (0 chg sh, 1 chg ter, 2 chg land, 3 free, 4 free+nosp)
+       istyp   (0 grd, 1 std, 2 sum, 3 dif, 4 80-ch)
+       density (g/cm**3) 
+       fi1, fi2, la1, la2   (max limits)
+       r1, r2   (km, r2=0: no grid2)
+
+===== T C - terrain effect computation =====
+- inputcodes: 5 4 1 1
+  maxarea:     34.00     38.00     42.00     47.00
+  computation radii:    40.0  100.0 km
+- stations:    33, in area:   30.4250  36.8486  42.9156  48.0262
+
+detailed elevation grid:
+
+--- gridlab    34.0000  38.0000  42.0000  47.0000   0.0003   0.00031438917987
+******** array dimension too small ************
+wanted: **** x **** =*******, declared:2000000

@@ -1,0 +1,32 @@
+
+*********************************************************************
+*    GEOGRID - GRAVSOFT data gridding - vers. SEP 92 - (c) RF/KMS   *
+*********************************************************************
+ INPUT NAMES OF IFILE, OFILE, EFILE
+ INPUT NDATA, DATA NO, MAX USED FOR PRED, ITREND, METH 1 OR 2
+ INPUT CORR. LENGTH (KM) AND VAR. NOISE
+ INPUT MODE (1-8) AND SEL. RADIUS (KM)
+ Input grid specification 
+35 75
+rkm =   10.0, data selection area:   45.4100  47.0900   2.8699   7.1301
+
+data values per point:  2, used no.:  2
+total points in file: 46187, selected:46187
+min max mean stddev:    -48.328    33.244    -0.119     6.838
+
+collocation prediction - sqrc0,xhalf(km),rmsn =    6.84  10.00   1.00
+selection: 10 closest points per quadrant
+- large organization, rdat increased -
+- large organization, rdat increased -
+- large organization, rdat increased -
+- large organization, rdat increased -
+- large organization, rdat increased -
+
+data organization limits:   45.5000  47.0000   3.0000   6.9987
+subrectangles (n,e,total):    16   30  480
+size (km):      10.4     10.2, average pts per rect (rdat):   96.223
+max points in subrects:  696, percentage with no points:   4.2
+
+predicted:    2625 points
+prediction  min max mean std.dev.:    -51.17    39.32     0.71     9.06
+

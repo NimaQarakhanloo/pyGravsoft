@@ -1,0 +1,7 @@
+input: inputfile and outputfile (two lines): 
+input: MODE (0:reformat, 1:select, 2:mean, 3:grid, 4:plot,
+             5:sel&rej, 6:sel&wndw, 7:sel_min, 8:sel&noise)
+       IANG (1:deg, 2:dm, 3:dms, 4:alt, 5:bin, 6:80char, 7:grid,
+             neg:fmt, 0:dline)
+       NDATA
+

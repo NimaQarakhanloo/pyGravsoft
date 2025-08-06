@@ -1,0 +1,108 @@
+GEODETIC COLLOCATION, VERSION 2009-05-06 RELEASE 17 REV. SVN 282 
+Wed Mar 13 09:51:29 2024                                                                                                        
+
+NOTE THAT IF SPHERICAL APPROXIMATION IS USED
+MEAN RADIUS = RE = 6371 KM AND MEAN GRAVITY 981 KGAL USED.
+
+
+MAX NUMBER OF OBS PER RECORD =16200, MAX NUMBER OF PARAMETERS= 2500
+MAX NUMBER OF DATA DEPENDING ON TILT  OR SCALE FACTOR-PARAMETERS  100002
+SIZE OF NORMAL EQ. BLOCKS=    399120, SIZE OF POT.COFF. BLOCK= 4844402
+ INTERACTIVE INPUT (T/F)
+ BUFFER SIZE MAXO9 =  1166400
+ SPHERICAL APPROXIMATION NOT  IN USE. 
+
+REFERENCE SYSTEM:                   GRS1980.
+
+A   = 6378137.00 M
+1/F = 298.2572204
+GM= 0.3986005000E+15
+REF.GRAVITY AT EQUATOR =   978032.6772 MGAL
+POTENTIAL AT REF.ELL.  = 62636860.8504 M**2/SEC**2
+
+
+SOURCE OF THE POTENTIAL COEFFICIENTS USED:
+EGM                                                                                                                             
+
+    GM             A       COFF(5)  MAX.DEGREE
+0.39860044E+15  6378136.3    0.0000 2160
+NAME OF FILE HOLDING COEFFICIENTS: D:/1.pyGravsoft-296/data/EGM2008.txt                                                                                            
+ COEFFICIENTS UP TO N=5 
+   2   0 -0.484170014E-03  0.000000000E+00
+   2   1 -0.206619999E-09  0.138440004E-08
+   2   2  0.243940008E-05 -0.140029999E-05
+   3   0  0.957159955E-06  0.000000000E+00
+   3   1  0.203049990E-05  0.248199996E-06
+   3   2  0.904789999E-06 -0.619009995E-06
+   3   3  0.721320021E-06  0.141429996E-05
+   4   0  0.539970017E-06  0.000000000E+00
+   4   1 -0.536159973E-06 -0.473569997E-06
+   4   2  0.350499988E-06  0.662479977E-06
+   4   3  0.990860030E-06 -0.200960002E-06
+   4   4 -0.188520005E-06  0.308799997E-06
+101  DEG FINISHED READING 
+202  DEG FINISHED READING 
+303  DEG FINISHED READING 
+404  DEG FINISHED READING 
+505  DEG FINISHED READING 
+606  DEG FINISHED READING 
+707  DEG FINISHED READING 
+808  DEG FINISHED READING 
+909  DEG FINISHED READING 
+1010  DEG FINISHED READING 
+1111  DEG FINISHED READING 
+1212  DEG FINISHED READING 
+1313  DEG FINISHED READING 
+1414  DEG FINISHED READING 
+1515  DEG FINISHED READING 
+1616  DEG FINISHED READING 
+1717  DEG FINISHED READING 
+1818  DEG FINISHED READING 
+1919  DEG FINISHED READING 
+2020  DEG FINISHED READING 
+2121  DEG FINISHED READING 
+
+
+DATA INPUT FROM UNIT 25, FILE=C:/Users/sabah/Desktop/ALL-DATA (1).txt                                                                                         
+
+SIMULTANEOUSLY OUTPUT TO FILE C:/Users/sabah/Desktop/grav                                                                                                     
+
+
+SELECTED GEOCENTRIC SYSTEM USED.
+
+   NO      LATITUDE     LONGITUDE     H   DELTA G (MGAL)
+           DEGREES       DEGREES      M
+                                                                  POT
+          1          2          3          4          5          6
+          7          8          9         10         11         12
+         13         14         15         16         17         18
+         19         20         21         22         23         24
+         25         26         27         28         29         30
+         31         32         33         34         35         36
+         37         38         39         40         41         42
+         43         44         45         46         47         48
+         49         50         51         52         53         54
+         55         56         57         58         59         60
+         61         62         63         64         65         66
+         67         68         69         70         71         72
+         73         74         75         76         77         78
+         79         80         81         82         83         84
+         85         86         87         88         89         90
+         91         92         93         94         95         96
+         97         98         99        100        101        102
+        103        104        105        106        107        108
+        109        110        111        112        113        114
+        115        116        117        118        119        120
+        121        122        123        124        125        126
+        127        128        129        130        131        132
+        133        134        135        136        137        138
+        139        140        141        142        143        144
+        145        146        147        148        149        150
+        151        152        153        154        155        156
+        157        158        159        160        161        162
+        163        164        165        166        167        168
+        169        170        171        172        173        174
+        175        176        177        178        179        180
+        181        182        183        184
+ GEOCOL TERMINATED AT:
+Wed Mar 13 09:51:41 2024                                                                                                        

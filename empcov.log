@@ -1,0 +1,84 @@
+
+ EMPIRICAL COVARIANCE FUNCTIONS, VERS. JULY 2009.
+
+ INPUT TEXT DESCRIBING DATA (MAX 60 CHAR):
+mperical Covarince Estimation                                                  
+INPUT: SAMPLING INTERVAL (MINUTES), NUMBER OF INTERVALS
+NUMBER RESAMPLINGS OF TABLE, PLOT OUTPUT (T/F)
+TABLE OUTPUT TO SEPARATE FILE (T/F), MEAN VALUE SUBTRACTION  (T/F)
+ INPUT NAME OF FILE HOLDING COV TABLE
+COVARIANCE FUNCTION TABLE OUTPUT TO FILE table.txt                                       
+INPUT: MAX NUMBER OF VALUES, INPUT MODE (WHERE 9 IS FREE FORMAT)
+LATITUDE FIRST IN RECORD (T/F), ANGULAR TYPE: 1, DDMMSS.S
+2: DDMM.M, 3: DD.D, OBSERVATION TYPE 1 (INTEGER) AND 
+TYPE 2 (INTEGER, 0 IF NOT PRESENT), SCALE OF HISTOGGRAM
+AND DATA TO BE SELECTED WITHIN GIVEN AREA (T/F) 
+ INPUT NUMBER OF DATA AND DATA ELEMENTS USED
+ INPUT NAME OF FILE HOLDING DATA
+ LAST DATA FILE (T/F) ? 
+    2920 VALUES INPUT FROM FILE D:/1.pyGravsoft-296/data/nmfa-egm96.dat         
+DATA FROM      31.6836     34.8134   -107.8166   -105.1850
+MEAN HEIGHT=   1614.9 M 
+DATA PER DEG.SQUARE =      423.9 MEAN LINEAR SPACING      0.049 DEG. 
+NUMBER OF OBS 1=     2920 MEAN =    9.1820 VAR. =    924.4848073
+
+HISTOGRAM, USING BIN SIZE=     5.000
+
+  2  9 19 40 59 55119116142148141403249211202183137124120 75 70 48248
+OUT-10 -9 -8 -7 -6 -5 -4 -3 -2 -1  0  1  2  3  4  5  6  7  8  9' 10OUT
+
+        2         9        19        40        59
+       55       119       116       142       148
+      141       403       249       211       202
+      183       137       124       120        75
+       70        48       248
+
+   PSI   COVA( 1, 1) PROD. STDV OF COV..
+   O  M    (UNIT)**2   NUMB   (UNIT)**2
+
+
+   0  0.00    856.102851       17381          13.1     92.853710
+   0 10.00    585.960915      107436           4.7    406.816284
+   0 20.00    387.039841      185882           3.1    610.664108
+   0 30.00    230.866256      245795           2.4    729.291224
+   0 40.00    124.586372      289702           2.1    842.738221
+   0 50.00    109.724632      317756           1.9    904.198598
+   1  0.00     96.381798      334389           1.8    988.066283
+   1 10.00     39.345920      343791           1.7   1085.636252
+   1 20.00    -13.005695      345689           1.7   1145.142271
+   1 30.00     -6.721380      340419           1.7   1156.618462
+   1 40.00     25.048235      328918           1.7   1136.005923
+   1 50.00     56.781301      308216           1.7   1048.946336
+   2  0.00     54.197838      271622           1.7    940.838238
+   2 10.00     22.464700      224339           1.7    855.994745
+   2 20.00      2.709198      180250           1.6    781.165441
+   2 30.00      5.148837      145257           1.6    706.900978
+   2 40.00     13.129505      113030           1.7    657.949772
+   2 50.00     -1.992741       82313           2.0    688.492386
+   3  0.00    -32.259984       50630           2.4    717.199889
+   3 10.00    -70.889370       21564           3.3    703.443657
+
+   PSI   COVA( 1, 1) PROD. STDV OF COV..
+   O  M    (UNIT)**2   NUMB   (UNIT)**2
+
+
+   0  0.00    856.102851       17381          13.1     92.853710
+   0 15.00    459.900301      293318           2.6    535.999086
+   0 35.00    173.369211      535497           1.6    790.665652
+   0 55.00    102.883060      652145           1.3    947.201966
+   1 15.00     13.098056      689480           1.2   1115.471165
+   1 35.00      8.890484      669337           1.2   1146.489282
+   1 55.00     55.571091      579838           1.2    998.303678
+   2 15.00     13.663350      404589           1.2    822.657254
+   2 35.00      8.641289      258287           1.2    685.479246
+   2 55.00    -13.519715      132943           1.5    699.425349
+
+   PSI   COVA( 1, 1) PROD. STDV OF COV..
+   O  M    (UNIT)**2   NUMB   (UNIT)**2
+
+
+   0  0.00    856.102851       17381          13.1     92.853710
+   0 25.00    274.772693      828815           1.4    700.539040
+   1  5.00     56.741281     1341625           0.9   1033.677880
+   1 45.00     30.558537     1249175           0.9   1077.704969
+   2 25.00     11.706524      662876           0.8    769.206388

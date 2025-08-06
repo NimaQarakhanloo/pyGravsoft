@@ -1,0 +1,19 @@
+--- TCGRID, GRAVSOFT grid averager and smoother ---
+input file name: 
+output file name: 
+input: itype (0 real, 1 integer), fimin,fimax,lamin,lamax (0 0 0 0 = all area)
+       idfi, idla (mean factors), iffi, ifla (filter factors) 
+
+
+--- ifile label    34.2500   37.7500   42.2500   46.7500    0.5000    0.5000
+Min number of data in cell for average: 1
+
+ofile grid spacing:     60.0    60.0, resolution:      0.0     0.0 (arcmin)
+
+--- ofile gridinfo   34.5000  37.5000  42.5000  46.5000   1.0000   1.0000
+points:   4 x   5 =     20, zero values:    0, missing/9999:    0
+hmin  hmax  mean  std.dev.:     104.00    2037.98    1000.58     715.65
+4
+3
+2
+1
